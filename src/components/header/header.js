@@ -7,7 +7,7 @@ import axios from "axios";
 import logout from "../helpers/Logout";
 
 const Header = (props) => {
-  const { state } = useContext(myContext);
+  const { state, dispatch } = useContext(myContext);
   const { user, cart, orders } = state;
   const [pendingOrder, setPendingOrder] = useState(false);
 
@@ -63,7 +63,11 @@ const Header = (props) => {
                     <div className="ml-2">{user.firstname}</div>
                   </Link>
                 </li>
-                <li onClick={logout}>
+                <li
+                  onClick={() => {
+                    logout(dispatch);
+                  }}
+                >
                   <Link to="">
                     <i className="fa fa-sign-out mr-1" aria-hidden="true"></i>
                     Logout

@@ -21,7 +21,7 @@ const Home = () => {
           <h5>What can we help you do today?</h5>
         </div>
         <div className="row d-flex justify-content-between">
-          <div className="col-6 col-ms-12 rounded" style={{ width: "40%" }}>
+          <div className="col-lg-6 col-xl-6 col-sm-6 col-ms-12 rounded">
             <h3 className="text-center mt-3 text-success">
               Send us your prescription
             </h3>
@@ -29,8 +29,8 @@ const Home = () => {
               <Create />
             </div>
           </div>
-          <div className="col-6 col-ms-12  rounded">
-            <div className="ml-5" style={{ width: "50%" }}>
+          <div className="col-lg-6 col-xl-6 col-sm-6 col-ms-12  rounded">
+            <div className="ml-5">
               <h3 className="mt-3 text-success">Our Health Services</h3>
               <ul>
                 <li className="mt-5 pt-2">

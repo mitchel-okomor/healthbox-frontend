@@ -7,7 +7,7 @@ import Account from "./account";
 
 function Profile() {
   return (
-    <div className="profile container">
+    <div className="profile container pt-5">
       <div className="background"></div>
       <div>
         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
