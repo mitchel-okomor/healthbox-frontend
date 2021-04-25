@@ -53,12 +53,12 @@ function Create() {
         const data = response.data.data;
         console.log("create: " + data);
         dispatch({ type: SET_LOADING, payload: false });
-        dispatch({ type: SET_MESSAGE, payload: "Operation successful" });
+        alert("Operation successful");
       }
     } catch (error) {
       console.log(error);
       dispatch({ type: SET_LOADING, payload: false });
-      dispatch({ type: SET_MESSAGE, payload: "Operation failed" });
+      alert("Operation failed");
     }
   };
 
@@ -70,14 +70,6 @@ function Create() {
     );
   }
 
-  if (message.content.length > 0) {
-    return (
-      <div className="create d-flex justify-content-center mt-5">
-        <h5>Prescription submition</h5>
-        <p>{message}</p>
-      </div>
-    );
-  }
   return (
     <div className="create d-flex justify-content-center mt-5">
       <form onSubmit={handleSubmit}>
