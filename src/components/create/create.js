@@ -15,6 +15,8 @@ function Create() {
   const [lastname, setLastname] = useState("");
   const [prescription, setPrescription] = useState("");
   const [phone, setPhone] = useState("");
+  const [hospital, setHospital] = useState("");
+  const [doctor, setDoctor] = useState("");
 
   const handleChange = (e) => {
     switch (e.target.name) {
@@ -30,7 +32,12 @@ function Create() {
       case "phone":
         setPhone(e.target.value);
         break;
-
+      case "doctor":
+        setDoctor(e.target.value);
+        break;
+      case "hospital":
+        setHospital(e.target.value);
+        break;
       default:
         return;
     }
@@ -43,6 +50,8 @@ function Create() {
     dispatch({ type: SET_LOADING, payload: true });
     try {
       const response = await axios.post(url, {
+        doctor,
+        hospital,
         firstname,
         lastname,
         prescription,
@@ -73,6 +82,32 @@ function Create() {
   return (
     <div className="create d-flex justify-content-center mt-5">
       <form onSubmit={handleSubmit}>
+        <div className="input-groups">
+          <label htmlFor="title">Doctor's Name:</label>
+          <br />
+          <input
+            className="form-control"
+            type="text"
+            name="doctor"
+            id="doctor"
+            value={doctor}
+            required
+            onChange={handleChange}
+          />
+        </div>
+        <div className="input-groups">
+          <label htmlFor="title">Hospital:</label>
+          <br />
+          <input
+            className="form-control"
+            type="text"
+            name="hospital"
+            id="hospital"
+            value={hospital}
+            required
+            onChange={handleChange}
+          />
+        </div>
         <div className="input-groups">
           <label htmlFor="title">First Name:</label>
           <br />
