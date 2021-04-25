@@ -1,0 +1,50 @@
+.total-events {
+  background-color: #3dd2b2;
+  color: white;
+  font-weight: bold;
+}
+
+.published-events {
+  background-color: #b662e3;
+  color: white;
+  font-weight: bold;
+}
+
+.completed-events {
+  background-color: #b662e3;
+  color: white;
+  font-weight: bold;
+}
+
+.drafted-events {
+  background-color: #e2ae49;
+  color: white;
+  font-weight: bold;
+}
+.d-header {
+  background-color: rgba(184, 181, 181, 0.185);
+}
+
+.d-header input {
+  width: 2rem;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.d-header button {
+  width: 2rem;
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard .search {
+  min-width: 10rem;
+}

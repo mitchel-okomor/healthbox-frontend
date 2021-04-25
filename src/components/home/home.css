@@ -1,0 +1,166 @@
+main img{
+    width: 99%;
+    transition: 2s;
+}
+.current-events{
+    text-align: center;
+    color: var(--dark-color);
+    line-height: 2;
+
+}
+
+.upcoming-events{
+    margin: auto;
+    text-align: center;
+}
+
+.current-events .card span{
+margin-right: 0.8rem;
+font-weight: 600;
+color: #e2ae49;
+}
+
+.intro{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.intro h1{
+    color: #e0c080;
+    font-size: 3.5rem;
+}
+
+.see-more-button{
+    margin: auto;
+}
+
+.see-more-button a{
+    font-size: x-large;
+}
+
+.intro-image{
+    height: 15rem;
+}
+
+.intro-image img:hover{
+width: 80%;
+transition: 2s;
+}
+.upcoming-events .date{
+    background:  rgba(0, 0, 0, 0.863);
+    border-radius: 4px;
+    color: var(--light-color);
+    width: fit-content;
+    padding: 4px;
+}
+
+.upcoming-events .title h5{
+    color: var(--dark-color);
+    font-weight: 700;
+}
+
+.completed h4{
+    color: #dd9c1b;
+    
+}
+
+.completed h3::after{
+    animation-name: counter;
+    animation-duration: 2.7s;
+}
+.carousel{
+        background-color: rgb(253, 251, 251);
+text-align: center;
+}
+
+h4{
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.reviews h5{
+    color: var(--primary-color);
+}
+
+
+@keyframes counter {
+    0% {
+    content: 1;
+    }
+    10% {
+        content: 4;
+    }
+    20% {
+        content: 7;
+    }
+    30% {
+        content: 9;
+    }
+    40% {
+        content: 15;
+    }
+    50% {
+        content: 20;
+    }
+    60% {
+        content: 27;
+    }
+    70% {
+        content: 30;
+    }
+    80% {
+        content: 31;
+    }
+    90% {
+        content: 33;
+    }
+    100% {
+        content: 34;
+    }
+  }
+
+@media screen and (max-width: 860px){
+
+    .intro{
+        padding: 0 !important;
+    }
+
+    .intro div{
+        padding: 0 1rem 0.5rem 1rem !important;
+        margin-bottom: 0 !important;
+    }
+    .intro h1{
+        color: #e0c080;
+        font-size: 1.5rem;
+    } 
+
+.info div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.upcoming-events div{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.upcoming-events h2{
+    margin-bottom: 0.5rem !important;
+}
+
+.current-events h2{
+    margin-bottom: 0.5rem !important;
+}
+
+.current-events {
+    margin-top: 0 !important;
+}
+
+
+.intro-image {
+    display: none !important;
+}
+
+.upcoming-events .date{
+   font-size: small;
+}
+}

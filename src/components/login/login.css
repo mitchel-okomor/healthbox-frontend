@@ -1,0 +1,40 @@
+.login-form{
+  background-color: inherit;
+  min-height: 100vh;
+}
+
+.login input{
+  height: 3rem;
+  background-color: #ececec;
+}
+.login button{
+  background-color: var( --dark-color);
+  border: rgb(229, 226, 226) solid 0.01rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 100%;
+  color: white;
+}
+.input-group{
+  width: 90%;
+}
+.login  form{
+  width: 30rem;
+}
+
+.login  a{
+  color: var(--light-color);
+  font-size: 1.2rem;
+font-weight: bold;
+}
+.login  a:visited{
+  color: var(--light-color);
+}
+.login  a:hover{
+  color: var(--light-color);
+}
+.login  .signup{
+color: var(--primary-color);
+  height: 5rem;
+}
+

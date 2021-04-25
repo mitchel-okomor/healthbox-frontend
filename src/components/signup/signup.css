@@ -1,0 +1,62 @@
+.signup-form{
+    background-color: inherit;
+    min-height: 100vh;
+}
+
+.signup input{
+    height: 3rem;
+    background-color: #ececec;
+}
+.signup button{
+    background-color: var( --dark-color);
+    border: rgb(229, 226, 226) solid 0.01rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 95%;
+    color: white;
+}
+.input-group{
+    width: 90%;
+}
+.signup form{
+    width: 30rem;
+}
+
+.signup a{
+    color: black;
+}
+.signup a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.signup .login{
+    background-color: #ececec;
+    height: 5rem;
+}
+.signup span {
+    color: red;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.signup .message{
+    font-size: x-large
+}
+
+.signup a{
+    color: var(--light-color);
+    font-size: 1.2rem;
+font-weight: bold;
+}

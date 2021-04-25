@@ -1,0 +1,60 @@
+.admin{
+    min-height: 100vh;
+border-top: 15px solid var(  --primary-color);
+}
+.dashboard-image{
+    background-color: var(  --primary-color);
+text-align:center ;
+color: var(--light-color);
+}
+
+.dashboard-image img{
+width: 170px;
+height: 170px;
+border-radius: 50%;
+}
+
+h5{ 
+
+    color: rgba(240, 248, 255, 0.678);
+}
+
+.notification{
+    border-right: 1px solid rgba(240, 248, 255, 0.678);
+}
+.n-area{
+    border-top: 1px solid rgba(240, 248, 255, 0.678);
+ 
+}
+.side{
+         background-color: rgba(184, 181, 181, 0.185);
+   height: 100vh;
+}
+.side .fa{
+    margin-right: 0.5rem;
+    color: var(  --primary-color);
+
+}
+
+.side ul{
+    margin-bottom: 1px solid black;
+}
+
+.side ul a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+}
+
+.side ul li{
+       margin-top: 0.9rem;
+ 
+}
+
+.side h4{
+    font-weight: bold;
+}
+
+.side button{
+    font-size: larger;
+}

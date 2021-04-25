@@ -1,0 +1,37 @@
+.checkout{
+    min-height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.quantity-button{
+    border: 1px solid  lightgray;
+    width: fit-content;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.quantity-button button{
+    font-size: x-large;
+    width: fit-content;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+    margin: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+.remove-border{
+border-left:none;
+}
+
+@media screen and (max-width: 860px){
+  
+}
+
+.checkout .fa{
+font-size: x-large;
+}

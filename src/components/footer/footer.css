@@ -1,0 +1,31 @@
+footer { 
+    width: 100%; 
+    min-height: 2rem; 
+    color: var(--light-color);
+    background-image: url("../../images/wave.svg"); 
+    background-size: 100%;
+    background-repeat: repeat;
+    overflow: auto;
+} 
+
+footer a{
+    color: var(--light-color);
+    font-size: large;
+    padding-bottom: 0.5rem;
+}
+
+.wave{
+    background-image: url("../../images/wave.svg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+}
+
+
+@media screen and (max-width: 860px){
+footer{
+    background-color: var(--dark-color);
+}
+}

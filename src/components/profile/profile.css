@@ -1,0 +1,30 @@
+.profile {
+  min-height: 100vh;
+}
+
+.profile .background {
+  height: 10rem;
+}
+
+.profile nav {
+  background-color: white;
+  color: black;
+}
+
+.profile ul a {
+  color: black;
+  background-color: rgb(233, 232, 232);
+  margin: 0 0.2rem 0 0.2rem;
+  width: 14rem;
+  text-align: center;
+}
+
+.profile ul li {
+  width: max-content;
+}
+
+@media screen and (max-width: 860px) {
+  .profile .background {
+    display: none;
+  }
+}

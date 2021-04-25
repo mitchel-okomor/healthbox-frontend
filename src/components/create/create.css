@@ -1,0 +1,40 @@
+.create {
+  background-color: inherit;
+  min-height: 60vh;
+  margin-bottom: 4rem;
+}
+
+.create input {
+  height: 3rem;
+  background-color: #ececec;
+}
+.create button {
+  background-color: var(--dark-color);
+  border: rgb(229, 226, 226) solid 0.01rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 100%;
+  color: white;
+}
+.input-group {
+  width: 90%;
+}
+.create form {
+  width: 30rem;
+}
+
+.create a {
+  color: var(--light-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.create a:visited {
+  color: var(--light-color);
+}
+.create a:hover {
+  color: var(--light-color);
+}
+.create .signup {
+  color: var(--primary-color);
+  height: 5rem;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #066e45;
+  --secondary-color: #acca1d;
+  --dark-color: #033622;
+  --light-color: #f4f4f4;
+  --success: #5cb85c;
+  --error: #d9534f;
+}
+
+button {
+  background-color: green;
+  color: var(--light-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+body {
+  font-family: "Libre Baskerville", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hide {
+  display: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}

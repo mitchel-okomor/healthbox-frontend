@@ -1,0 +1,10 @@
+.events{
+    min-height: 100vh;
+}
+
+.events .card span{
+    margin-right: 0.8rem;
+    font-weight: 600;
+    color: #e2ae49;
+    }
+    

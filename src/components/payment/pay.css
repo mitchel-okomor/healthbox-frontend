@@ -1,0 +1,9 @@
+.pay {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pay .fa {
+  font-size: large;
+}

@@ -1,0 +1,15 @@
+.payment {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 20rem;
+}
+
+.card-header {
+  color: var(--primary-color);
+  font-weight: bold;
+}
